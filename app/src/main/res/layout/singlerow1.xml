@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="386dp"
+        android:layout_height="222dp"
+        android:elevation="4dp"
+        app:cardCornerRadius="8dp"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.272"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.074">
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/hid"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp"
+                android:text="ID" />
+
+            <TextView
+                android:id="@+id/hid2"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="-21dp"
+                android:layout_marginBottom="3dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="3dp"
+                android:text="Name" />
+
+            <TextView
+                android:id="@+id/hname2"
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="-21dp"
+                android:layout_marginBottom="3dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/hdate"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="3dp"
+                android:text="Date" />
+
+            <TextView
+                android:id="@+id/hdate2"
+                android:layout_width="159dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="-21dp"
+                android:layout_marginBottom="3dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/hlocation"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="3dp"
+                android:text="Location" />
+
+            <TextView
+                android:id="@+id/hlocation2"
+                android:layout_width="257dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="-21dp"
+                android:layout_marginBottom="3dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/hphonenum"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="3dp"
+                android:text="Phone Number" />
+
+            <TextView
+                android:id="@+id/hphno2"
+                android:layout_width="149dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="-21dp"
+                android:layout_marginBottom="3dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/htype"
+                android:layout_width="99dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp"
+                android:text="Type" />
+
+            <TextView
+                android:id="@+id/htype2"
+                android:layout_width="149dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="-21dp"
+                android:layout_marginBottom="3dp"
+                android:text="" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

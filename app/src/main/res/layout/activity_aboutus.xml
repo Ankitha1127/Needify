@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Aboutus">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/twitter"
+        android:layout_width="415dp"
+        android:layout_height="37dp"
+        android:tooltipText="Twitter"
+        app:cardBackgroundColor="#BCABAB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.399" >
+
+        <ImageView
+            android:id="@+id/twit"
+            android:layout_width="104dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/twitter" />
+
+        <TextView
+            android:id="@+id/ter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="90dp"
+            android:text="TWITTER"
+            android:textSize="20sp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/facebook"
+        android:layout_width="414dp"
+        android:tooltipText="Facebook"
+        android:layout_height="33dp"
+        app:cardBackgroundColor="#BCABAB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.485" >
+
+        <ImageView
+            android:id="@+id/face"
+            android:layout_width="103dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/facebook" />
+
+        <TextView
+            android:id="@+id/book"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="90dp"
+            android:text="FACEBOOK"
+            android:textSize="20sp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/gmail"
+        android:tooltipText="Gmail"
+        android:layout_width="407dp"
+        android:layout_height="31dp"
+        app:cardBackgroundColor="#BCABAB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.567" >
+
+        <ImageView
+            android:id="@+id/gm"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/gmail" />
+
+        <TextView
+            android:id="@+id/ail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="90dp"
+            android:text="GMAIL"
+            android:textSize="20sp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/instagram"
+        android:layout_width="411dp"
+        android:layout_height="35dp"
+        android:tooltipText="Instagram"
+        android:overScrollMode="ifContentScrolls"
+        app:cardBackgroundColor="#BCABAB"
+        app:cardPreventCornerOverlap="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.312" >
+
+        <ImageView
+            android:id="@+id/insta"
+            android:layout_width="101dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/insta" />
+
+        <TextView
+            android:id="@+id/gram"
+            android:layout_width="277dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="90dp"
+            android:text="INSTAGRAM"
+            android:textSize="20sp" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="381dp"
+        android:layout_height="127dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Needify aims at ensuring that the basic necessity of life, food is ensured to as many people as possible.The final goal of this app is to ensure that no person sleeps hungry.We provide a platform for the distribution of the food that goes waste on various occasions.The distributors on the receiving side can donate it to nourish the needs of the malnutritioned."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.129" />
+
+    <TextView
+        android:id="@+id/aboutus"
+        android:layout_width="211dp"
+        android:layout_height="45dp"
+        android:fontFamily="sans-serif-black"
+        android:text="About Us"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="117dp"
+        android:layout_height="103dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.102"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.828"
+        app:srcCompat="@drawable/amrutha" />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="118dp"
+        android:layout_height="101dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.556"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.828"
+        app:srcCompat="@drawable/ankitha" />
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="93dp"
+        android:layout_height="101dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.828"
+        app:srcCompat="@drawable/bhavna" />
+
+    <TextView
+        android:id="@+id/amrutha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AMRUTHA V"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/facebook"
+        app:layout_constraintHorizontal_bias="0.135"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.901" />
+
+    <TextView
+        android:id="@+id/ankitha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ANKITHA R"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.561"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.901" />
+
+    <TextView
+        android:id="@+id/bhavna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BHAVANA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/facebook"
+        app:layout_constraintHorizontal_bias="0.89"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.901" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.991" />
+
+    <TextView
+        android:id="@+id/dev"
+        android:layout_width="205dp"
+        android:layout_height="42dp"
+        android:fontFamily="sans-serif-black"
+        android:text="DEVELOPERS"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.674" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

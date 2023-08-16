@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="ScrollViewSize">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Welcome to Needify"
+            android:textColor="@color/purple_700"
+            android:textSize="26sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="169dp"
+            android:layout_height="87dp"
+            android:src="@drawable/mad_logo" />
+
+        <TextView
+            android:layout_width="353dp"
+            android:layout_height="94dp"
+            android:layout_margin="20dp"
+            android:background="@color/cardview_light_background"
+            android:fontFamily="sans-serif"
+            android:text="By becoming a member of needify,you become one in a group of compassionate hearts who yearns to serve the basic necessity of life-Food to all those in need."
+            android:textColor="@color/purple_700"
+            android:textSize="16sp" />
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardLogin"
+            android:layout_width="386dp"
+            android:layout_height="168dp"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            app:cardBackgroundColor="#00BCD4"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="5dp"
+            tools:ignore="KeyboardInaccessibleWidget">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="135dp"
+                android:fontFamily="sans-serif"
+                android:text="Register"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="18dp"
+                android:src="@drawable/register"
+                tools:ignore="ContentDescription" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardRegister"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            app:cardBackgroundColor="#329EF4"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="5dp"
+            tools:ignore="KeyboardInaccessibleWidget">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="18dp"
+                android:src="@drawable/login"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="135dp"
+                android:fontFamily="sans-serif"
+                android:text="Login"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+</ScrollView >
